@@ -4,8 +4,8 @@ import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import Link from "next/link";
 const navigation = [
-  { name: "Twitter", href: "#", current: false },
-  { name: "GitHub", href: "#", current: false },
+  { name: "Twitter", href: "https://twitter.com/sayan_011", current: false },
+  { name: "GitHub", href: "https://github.com/sayan011/lendoor-frontend", current: false },
 ];
 
 function classNames(...classes) {

@@ -1,9 +1,9 @@
 import abi from "../constants/Vault.json";
 import stableCoinAbi from "../constants/StableCoinToken.json";
 
-const VAULT_CCONTRACT_ADDRESS = "0x1b4D9516abBd051A571EdC798c211AAD7e473e16";
-const STABLE_COIN_ADDRESS = "0xa6F4aE0b6323a287A4322836d3d3A009eB8B0447";
-
+const VAULT_CCONTRACT_ADDRESS = " 0xe2deaaf4fcfe1cd614965c0d59e70ec1e1f8621a";
+const STABLE_COIN_ADDRESS = "0xed4e1d6a03559fad967ee64d20fd52682b3ac7ac";
+const ORACLE="0xa67a539c4c125f541c6c75e32a4b8e72efd7e9d9"
 const VAULT_ABI = abi.abi;
 const STABLE_COIN_ABI = stableCoinAbi.abi;
 

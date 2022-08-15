@@ -112,8 +112,8 @@ const HomeMain = () => {
 
   async function addTokenFunction() {
     try {
-      const tokenAddress = "0xa6F4aE0b6323a287A4322836d3d3A009eB8B0447";
-      const tokenSymbol = "STC";
+      const tokenAddress = "0xed4e1d6a03559fad967ee64d20fd52682b3ac7ac";
+      const tokenSymbol = "LDT";
       const tokenDecimals = 18;
       const wasAdded = await ethereum.request({
         method: "wallet_watchAsset",
@@ -131,7 +131,7 @@ const HomeMain = () => {
         setTokenAdded(true);
         console.log("Thanks for using");
       } else {
-        console.log("STC has not been added");
+        console.log("LDT has not been added");
       }
     } catch (error) {
       console.log(error);
@@ -181,7 +181,7 @@ const HomeMain = () => {
             )}
             <div className="h-[1px] w-full bg-gray-400 my-2 " />
             <p className="text-white font-bold mt-10 mb-3">
-              STC Balance: {walletNDLBalance.toString()}
+              LDT Balance: {walletNDLBalance.toString()}
             </p>
 
             <input
